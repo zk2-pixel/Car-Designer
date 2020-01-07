@@ -1,0 +1,118 @@
+:root {
+    --white: #fff;
+    --blue1: #3895ea;
+    --blue2: #387bea;
+    --darkBlue: #1e2b38;
+    --softGray: #cecece;
+    --gray: #a4a4a4;
+    --twitter: #1da1f2;
+    --facebbok: #3b5998;
+    --instagram: #c13584;
+    --github: #6cc644;
+}
+
+footer .contact {
+    padding: 60px 0;
+}
+
+footer .contact .title {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: var(--blue1);
+    text-align: center;
+    padding-bottom:40px;
+}
+
+footer .contact .form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .contact .form input[type="text"],
+footer .contact .form input[type="email"],
+footer .contact .form textarea {
+    border: 2px solid var(--softGray);
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: var(--softGray);
+    background: var(--white);
+}
+
+footer .contact .form input[type="text"]:focus,
+footer .contact .form input[type="email"]:focus,
+footer .contact .form textarea:focus {
+    border: 2px solid var(--blue1);
+}
+
+footer .contact .form input[type="text"],
+footer .contact .form input[type="email"] {
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+footer .contact .form textarea {
+    width: 100%;
+    height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+    margin-bottom: 15px;
+}
+
+footer .contact .form .button {
+    
+    background: var(--blue1);
+    color: var(--white);
+    border: none;
+    border-radius: 4px;
+    padding: 15px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+footer .contact .form .button:hover {
+    background: var(--blue2);
+}
+
+footer .social {
+    background: var(--darkBlue);
+    padding: 60px 0;
+}
+
+footer .social .container {
+    display: flex;
+    justify-content: center;
+}
+
+footer .social a {
+    color: var(--white);
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    border-radius: 3px;
+    font-size: 30px;
+    margin: 0 20px;
+}
+
+footer .social .twitter:hover {
+    background: var(--twitter);
+}
+
+footer .social .facebook:hover {
+    background: var(--facebbok);
+}
+
+footer .social .instagram:hover {
+    background: var(--instagram);
+}
+
+footer .social .github:hover {
+    background: var(--github);
+}
